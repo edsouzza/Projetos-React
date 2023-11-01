@@ -4,25 +4,29 @@
     height: 6em;
     display: flex;
     align-items: center;   
+    position: relative;
 }
 .content{
+    /* background: black; */
     display: flex;
     width: 100%;
-    height: 100%;
-    /* background: black; */
+    height: 100%;    
     padding: 0 1em; 
     justify-content: space-between;
 }
 .left{
     /* background: rebeccapurple; */
+    width: 15em;
     display: flex;
     align-items: center;
+    
 }
 .right{
     /* background: rgb(178, 178, 55); */
+    width: 15em;
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 .hart,.bag,.user,.menu{
     width: 40px;

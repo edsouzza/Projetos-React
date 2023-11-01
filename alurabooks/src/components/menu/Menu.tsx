@@ -1,11 +1,11 @@
 import './Menu.css'
-import imgMenu from '../../assets/Menu.svg'
+import ListaMenu from '../listaMenu/ListaMenu'
 
 export default function Menu(){
 
     return(
-        <>
-          <img src={imgMenu} alt="Imagem do menu" className='menu'/>
+        <>         
+          <ListaMenu/>
         </>
     )
 
