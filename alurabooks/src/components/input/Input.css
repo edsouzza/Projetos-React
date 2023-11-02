@@ -22,3 +22,6 @@
     background: url(../../assets/Lupa.svg)no-repeat;
     background-position: 2em;   
 }
+.banner__pesquisa:focus{
+    outline: none;
+}
