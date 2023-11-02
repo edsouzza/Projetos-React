@@ -24,7 +24,7 @@
     background: var(--azul-degrade);
 }
 .container__imagem{
-    padding: 1em;
+    padding: 1.5em;
 }
 .listaMenu{
     display: none;

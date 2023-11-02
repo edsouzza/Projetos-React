@@ -7,9 +7,9 @@ export default function Banner(){
       <section className="banner">
         <div className="banner__textos">
            <h1 className="banner__h1">já sabe por onde começar?</h1>
-           <p className="banner__descricao">encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+           <p className="banner__descricao">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         </div>
-        <Input/>
+        <Input texto="Qual será sua próxima leitura?"/>
       </section>
    )
 
