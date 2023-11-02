@@ -1,0 +1,26 @@
+ /* versão mobile */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 2em;
+    background : var(--azul-degrade);
+}
+.banner__textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--branco);
+    padding-bottom: 1em;
+   
+}
+.banner__h1{
+    font-size: 22px;
+}
+.banner__descricao{
+    font-size: 16px;
+    text-align: center;
+}
+
