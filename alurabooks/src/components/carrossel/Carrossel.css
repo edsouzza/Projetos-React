@@ -1,0 +1,27 @@
+ /* versão mobile */
+.carrossel__titulo{
+    color: var(--laranja);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--branco);
+    padding: 0.6em 0;
+}
+.carrossel__container{
+  position: relative;
+}
+.swiper-slide img{
+    width: 95%;   
+    object-fit: cover;
+    margin-top: 20px;
+}
+.swiper-pagination {
+    position: initial;
+    margin: 10.25em 0; 
+    padding-bottom: 0.3em;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}

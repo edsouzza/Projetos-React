@@ -24,7 +24,8 @@
     width: 15em;
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 1.3em;
+    margin-left: 25px;
 }
 .hart,.bag,.user,.menu{
     width: 40px;
