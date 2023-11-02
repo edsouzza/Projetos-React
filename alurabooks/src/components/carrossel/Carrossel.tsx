@@ -13,7 +13,7 @@ import Portugol from '../../assets/Portugol.svg'
 import Acessibilidade from '../../assets/Acessibilidade.svg'
 
 export default function Carrossel(props:any){
-    const slides = [Apache, Lideranca, JS, GuiaFrontEnd, Portugol, Acessibilidade]
+    const slides = [{id:'1', img:Apache}, {id:'2', img:Lideranca}, {id:'3', img:JS}, {id:'4', img:GuiaFrontEnd}, {id:'5', img:Portugol}, {id:'6', img:Acessibilidade}]
     return(
         <section className="carrossel__container">
             <h2 className="carrossel__titulo">{props.titulo}</h2>
@@ -25,9 +25,9 @@ export default function Carrossel(props:any){
               pagination={true}
               loop
             >
-                {slides.map(slide =>(
-                  <SwiperSlide>
-                    <img src={slide} alt={slide}/>
+                {slides.map(item =>(
+                  <SwiperSlide key={item.id}>
+                    <img src={item.img} alt={item.img}/>
                   </SwiperSlide>
                 ))}
             </Swiper>
