@@ -16,9 +16,9 @@
     
 }
 body{    
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: var(--fonte-size-principal);
     margin: 0;
     padding: 0;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-size-principal);    
 }
