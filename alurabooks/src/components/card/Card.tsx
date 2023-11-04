@@ -1,7 +1,6 @@
 import './Card.css'
-import hart from '../../assets/Favoritos.svg'
-import bag from '../../assets/Compras.svg'
 import estrelas from '../../assets/Estrelinhas.svg'
+import Icones from '../../components/icones/Icones'
 
 export default function Card(props:any){
     return(       
@@ -10,7 +9,11 @@ export default function Card(props:any){
             <div className="card__descricao">
                 
                 <div className="descricao">
-                    <img src={estrelas} alt="imagem de estrelas" id="escritora" className='estrelas' />
+                    {/* criei um props.temEstrela para mostrar as estrelinhas apenas no card que tiver o valor true nela */}
+                    {
+                        props.temEstrela &&
+                        <img src={estrelas} alt="imagem de estrelas" id="escritora" className='estrelas' />
+                    }
                     <h3 className="descricao__titulo">{props.descricao}</h3>
                     <h2 className="descricao__titulo-livro">{props.titulo}</h2>
                     <p className="descricao__texto">{props.texto}</p>
@@ -20,13 +23,8 @@ export default function Card(props:any){
                     <a href="#" className="botoes__ancora">Saiba mais</a>
                 </div>
             </div>
-
-            <div className="card__botoes">
-                <ul className="botoes">
-                    <li className="botoes__item"><img src={hart} alt="Imagem Favoritos"/></li>
-                    <li className="botoes__item"><img src={bag} alt="Imagem Compras"/></li>                
-                </ul>                
-            </div>
+           
+            <Icones />
         </section>
     )
 }

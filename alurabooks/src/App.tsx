@@ -21,7 +21,8 @@ function App() {
         foto={angular}
       />
       <Carrossel titulo="mais vendidos"/>
-      <Card         
+      <Card 
+        temEstrela="true"     
         descricao="Autora do mês"
         titulo="Juliana Agarikov"
         texto="Analista de sistemas e escritora, Juiana é especialista em Front-End."

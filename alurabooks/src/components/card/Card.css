@@ -20,6 +20,10 @@
     margin-left: -40px;
     margin-top: -50px;
 }
+.botoes__item {
+    margin: 0 0.5em;
+    list-style: none;
+}
 .descricao__titulo {
     font-size: var(--fonte-size-principal);
     color: var(--laranja);
@@ -36,11 +40,8 @@
     line-height: 1;
 }
 .descricao__imagem{
-    margin-bottom: 1.5em;    
-}
-.botoes__item {
-    margin: 0 0.5em;
-    list-style: none;
+    margin-bottom: 1.5em; 
+    margin-top: 3px;   
 }
 .botoes__ancora {    
     background-color: var(--laranja);
@@ -48,12 +49,12 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;    
-    width: 168px;
+    width: 168px;   
 }
 .estrelas{
     width: 75%;
     margin-bottom: 0.3em;   
-    display: none; 
+    display: 'block'; 
 }
 
 
