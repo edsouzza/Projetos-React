@@ -8,6 +8,7 @@ import angular from './assets/Angular.svg'
 import escritora from './assets/Escritora.svg'
 import Topicos from './components/topicos/Topicos';
 import Contato from './components/contato/Contato';
+import Footer from './components/footer/Footer';
 
 function App() {  
 
@@ -32,6 +33,7 @@ function App() {
       />
       <Topicos/>
       <Contato/>
+      <Footer/>
     </>
   )
 }

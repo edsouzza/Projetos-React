@@ -1,0 +1,12 @@
+.footer{
+    background: var(--branco);
+    padding: 1em;    
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+.footer__titulo{
+    font-size: var(--fonte-size-principal);
+    font-weight: 400;
+    margin-top: 0.5em;
+}
