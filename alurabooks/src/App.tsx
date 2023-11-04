@@ -6,6 +6,7 @@ import Carrossel from './components/carrossel/Carrossel';
 import Card from './components/card/Card'
 import angular from './assets/Angular.svg'
 import escritora from './assets/Escritora.svg'
+import Topicos from './components/topicos/Topicos';
 
 function App() {  
 
@@ -28,6 +29,7 @@ function App() {
         texto="Analista de sistemas e escritora, Juiana é especialista em Front-End."
         foto={escritora}
       />
+      <Topicos/>
     </>
   )
 }
