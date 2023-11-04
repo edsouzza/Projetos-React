@@ -1,0 +1,18 @@
+.contato{
+    background: var(--branco);
+    padding: 1em;
+    border-bottom: 1px solid var(--azul);
+}
+.contato__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 1em;
+}
+.contato__texto{
+   font-family: var(--fonte-principal);
+   font-size: var(--fonte-size-principal); 
+   color: var(--azul);
+   font-weight: 300;
+   line-height: 16px;
+}

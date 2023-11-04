@@ -7,6 +7,7 @@ import Card from './components/card/Card'
 import angular from './assets/Angular.svg'
 import escritora from './assets/Escritora.svg'
 import Topicos from './components/topicos/Topicos';
+import Contato from './components/contato/Contato';
 
 function App() {  
 
@@ -30,6 +31,7 @@ function App() {
         foto={escritora}
       />
       <Topicos/>
+      <Contato/>
     </>
   )
 }
