@@ -5,3 +5,12 @@
 .card__botoes{
     margin-top: -0.4em;
 }
+ /* versão tablet */
+ @media screen and (min-width:1024px){
+    .hart{
+        display: none;
+    }
+    .right{
+        justify-content: flex-end;
+    }
+}

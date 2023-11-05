@@ -14,7 +14,7 @@ export default function ListaMenu(){
             <li className="listaMenuItem"><a href="#" className='listaMenuLink'>front-end</a></li>
             <li className="listaMenuItem"><a href="#" className='listaMenuLink'>infraestrutura</a></li>
             <li className="listaMenuItem"><a href="#" className='listaMenuLink'>design &ux</a></li>
-          </ul>
+          </ul>        
        </>
    )
 

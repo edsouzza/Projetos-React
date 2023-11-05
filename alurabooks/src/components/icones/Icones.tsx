@@ -8,7 +8,7 @@ export default function Icones(props:any) {
         <>
             <div className="card__botoes">
                 <ul className="botoes">
-                    <li className="botoes__item"><img src={hart} alt="Imagem Favoritos" className='icone'/></li>
+                    <li className="botoes__item"><img src={hart} alt="Imagem Favoritos" className='icone hart'/></li>
                     <li className="botoes__item"><img src={bag} alt="Imagem Compras" className='icone'/></li>
                     {
                         props.comUser &&

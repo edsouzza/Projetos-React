@@ -4,3 +4,19 @@
     height: 40px;
     margin-left: 20px;    
 }
+.nomeAluraBold{
+    display: none;
+}
+ /* versão tablet */
+ @media screen and (min-width:1024px){
+    .nomeAluraBold{
+        display: block;
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .logo{
+        margin-left: -5px;
+    }
+ }
