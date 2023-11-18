@@ -1,46 +1,53 @@
  /* versão mobile */
-.opcoes{
+/* .opcoes{
     display: none;
-}
+} */
 
  /* versão tablet */
- @media screen and (min-width:1024px){
+ @media screen and (min-width:1024px){   
+    #opcoes_menu{
+        display: none;
+    }    
+    nav{  
+        margin-left: 2em;
+    }
     .opcoes{
-        display: block;
-    }
-    .opcoes__rotulo{
         display: flex;
-    }
-    .opcoes__botao{
-        display: none;
-    }
-    .opcoes__botao:checked~.listaMenu{
-        display: block;
-    }
-    .opcoes__botao:checked~.opcoes__rotulo{
-        background: var(--azul-degrade);
-    }
-    .opcoes__imagem{
-        padding: 1.5em;
-    }
-    .listaMenu{
-        display: none;
-        position: absolute;
-        top : 83%;
-        padding: 0;
-        width: 60vw;
+        width: 120%;
+        margin-top: 1.8em;
         list-style: none;
-        margin-left: -16px;
+        padding: 1em 2em;
+        /* background-color: blueviolet; */
     }
-    .listaMenuItem{
-        padding: 1em;
-        background-color: var(--branco);       
-    }
-    .listaMenuLink{
-        background: var(--azul-degrade);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+    .opcoes__item{
+        padding: 0 1.8em;
         text-transform: uppercase;
     }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);        
+    }
+    .menu .opcoes .listaMenu{
+        display: none;
+        z-index: 99;
+
+    }
+    .listaMenuItem{
+        margin-left: 15px;
+        width: 30%;
+    }
+    .listaMenuItem:hover{
+        background:var(--azul);        
+    }
+    .listaMenuLink:hover{
+        color: var(--branco);
+    }
+    #opcoes_menu:checked ~ .listaMenu{
+        display: block;         
+    }
+    .listaMenuLink{
+        color: aliceblue;
+    }
+    
+
  }
