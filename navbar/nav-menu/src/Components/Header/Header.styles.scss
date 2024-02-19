@@ -1,0 +1,33 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+    height: 72px;
+    padding: 0 80px;
+    align-items: center;
+
+    .title{
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .nav-container{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .nav{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+    }  
+
+    .nav-container a:hover, .nav-container a.active{
+        color:#E6E327;
+    }
+
+
+
+
+}
