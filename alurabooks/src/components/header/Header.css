@@ -17,17 +17,18 @@
 .left{
     width: 15em;
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 .right{
     width: 15em;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.3em;
     margin-left: 25px;
+    margin-top: 4.5em;
 }
-.hart,.bag,.user,.menu{
-    width: 40px;
-    height: 40px;
-}
+ /* versão tablet */
+ @media screen and (min-width:1024px){
+    
+ }

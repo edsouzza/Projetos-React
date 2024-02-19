@@ -2,7 +2,7 @@
  .banner__areainput{
     width: 100%;
  }
-.banner__pesquisa{
+.banner__pesquisa, .banner__pesquisa__forcontato{
     background-color: transparent;
     border: 1px solid var(--branco);
     color: var(--branco);
@@ -10,7 +10,7 @@
     padding: 0.7em;
     width: 100%;
 }
-.banner__pesquisa::placeholder{
+.banner__pesquisa::placeholder, .banner__pesquisa__forcontato::placeholder{
     /* texto */
     font-family: var(--fonte-principal);
     font-size: 14px;
@@ -22,6 +22,16 @@
     background: url(../../assets/Lupa.svg)no-repeat;
     background-position: 2em;   
 }
-.banner__pesquisa:focus{
+.banner__pesquisa:focus, .banner__pesquisa__forcontato:focus{
     outline: none;
+}
+.banner__pesquisa__forcontato{
+    border: 1px solid var(--azul);
+    color: var(--azul);
+}
+.banner__pesquisa__forcontato::placeholder{
+    background: url(../../assets/Email.svg)no-repeat;
+    color: var(--azul);
+    margin-right: 9em;
+    font-weight: 500;
 }

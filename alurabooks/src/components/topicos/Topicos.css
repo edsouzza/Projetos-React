@@ -1,0 +1,39 @@
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+}
+.topicos{    
+    padding: 1em 0;
+    background: var(--azul-degrade);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.topicos__titulo{
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-size-principal);
+    color: var(--branco);
+    font-weight: 300;
+    padding: 1em 0;     
+}
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: -1em;
+}
+
+.topicos__link{
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);    
+    margin-right: 1em;
+    margin-bottom: 2.5em;
+}
